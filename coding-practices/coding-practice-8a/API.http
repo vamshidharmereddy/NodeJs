@@ -1,0 +1,2 @@
+### API Sample 1
+GET http://localhost:3000/todos/?status=TO%20DO

@@ -1,0 +1,34 @@
+### All Movies API
+GET http://localhost:3000/movies/
+
+### GET Movie By ID API
+GET http://localhost:3000/movies/46
+
+### Add Movie API
+POST http://localhost:3000/movies/
+Content-Type: application/json
+
+{
+  "directorId": 24,
+  "movieName": "Thor",
+  "leadActor": "Christopher Hemsworth"
+}
+
+###
+PUT http://localhost:3000/movies/117
+Content-Type: application/json
+
+{
+  "directorId": 24,
+  "movieName": "Thor",
+  "leadActor": "Christopher Hemsworth"
+}
+
+### Delete Movie API
+DELETE http://localhost:3000/movies/117
+
+### All Directors API
+GET http://localhost:3000/directors/
+
+### Movies By DirectorId API
+GET http://localhost:3000/directors/1/movies
